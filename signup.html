@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+
+    <link rel="stylesheet" href="styles/acesso.css" />
+  </head>
+
+  <body>
+    <div class="left">
+      <img src="./assets/pessoa-login.png" alt="" />
+    </div>
+    <div class="right">
+      <form id="contato-form">
+        <div class="form-header">
+          <p>TU-Do App</p>
+          <p class="sub">Onde você deixa TUDO pra depois</p>
+        </div>
+        <h1>Sign Up</h1>
+
+        <label>
+          Nome:<span id="checkName"></span>
+          <input type="text" id="name" />
+        </label>
+        <label>
+          Sobrenome:<span id="checkSurname"></span>
+          <input type="text" id="surname" />
+        </label>
+        <label>
+          Email:<span id="checkEmail"></span>
+          <input type="email" id="email" />
+        </label>
+        <label>
+          Senha:<span id="checkPw"></span>
+          <input type="password" id="password" minlength="3" />
+        </label>
+        <label>
+          Repetir senha:<span id="checkRepeatPw"></span>
+          <input type="password" id="repeatPw" />
+        </label>
+
+        <div class="erro" id="errorList" hidden>
+          <ul></ul>
+        </div>
+
+        <button>Criar conta</button>
+      </form>
+      <div class="ingressar">
+        <a href="index.html">Já possui conta? Acesse aqui</a>
+      </div>
+    </div>
+    <script src="./scripts/signup.js"></script>
+  </body>
+</html>
