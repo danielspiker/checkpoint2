@@ -5,7 +5,7 @@
 - Valida páginas de login e signup
 - Cadastra novo usuário
 - Loga usuário cadastrado
-- Criade novas tarefas
+- Cria novas tarefas
 - Exclui tarefas novas
 - Passa tarefas novas para tarefas terminadas
 - Exclui tarefas terminadas
