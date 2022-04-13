@@ -2,7 +2,7 @@
 ### Onde você anota TuDo que vai deixar pra fazer depois
 #
 
-- Valida páginas de login e signup
+- Valida formulários de login e signup
 - Cadastra novo usuário
 - Loga usuário cadastrado
 - Cria novas tarefas
